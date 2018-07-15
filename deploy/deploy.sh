@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 APP_NAME=ttd-content
+
 JOB_NAME=${APP_NAME}
 
 cf d -f ${APP_NAME}
